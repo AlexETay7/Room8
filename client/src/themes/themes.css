@@ -1,13 +1,17 @@
 :root[data-theme="dark"] {
-    --navbar-bg-gradient: linear-gradient(90deg, #1A1A40, #4E4E87);
-    --text-color: white;
-    --logo-highlight-color: #A2D2FF;
-    --link-hover-color: #A2D2FF;
-    --cta-bg-color: #A2D2FF;
-    --cta-text-color: #1A1A40;
-    --cta-hover-shadow: rgba(162, 210, 255, 0.4);
-    --cta-bs-color: rgba(162, 210, 255, 0.4);
+    --navbar-bg-gradient: linear-gradient(90deg, #0F172A, #1E293B); /* Navy blue gradient */
+    --text-color: #E5E7EB; /* Light gray for high contrast */
+    --logo-highlight-color: #38BDF8; /* Bright teal for highlights */
+    --link-hover-color: #38BDF8; /* Matches logo highlight */
+    --cta-bg-color: #38BDF8; /* Teal for call-to-action */
+    --cta-text-color: #0F172A; /* Dark navy for contrast against teal */
+    --cta-hover-shadow: rgba(56, 189, 248, 0.3); /* Teal shadow for hover effect */
+    --cta-bs-color: rgba(56, 189, 248, 0.3); /* Matches hover shadow */
+    --card-bg-color: #1E293B; /* Darker navy for card backgrounds */
+    --card-border-color: #38BDF8; /* Subtle teal border for cards */
 }
+
+
 
 :root[data-theme="light"] {
     --navbar-bg-gradient: linear-gradient(90deg, #f4f4f4, #e0e0e0);
