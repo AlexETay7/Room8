@@ -56,8 +56,8 @@
   .navbar-cta:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 10px var(--cta-bs-color);
-    color: var(--cta-bg-color); /* Change the text color on hover */
-    background-color: var(--cta-text-color); /* Optionally change background color on hover */
+    color: var(--cta-bg-color); 
+    background-color: var(--cta-text-color); 
   }
   
   

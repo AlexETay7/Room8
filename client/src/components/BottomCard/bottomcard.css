@@ -5,31 +5,31 @@
     justify-content: space-around;
     align-items: stretch;
     gap: 20px;
-    flex-wrap: nowrap; /* Prevents wrapping to the next line */
+    flex-wrap: nowrap; 
   }
   
   /* Individual Cards */
   .card {
-    flex: 1 1 calc(25% - 20px); /* Equal width for 4 cards */
+    flex: 1 1 calc(25% - 20px); 
     padding: 20px;
     background-color: var(--card-bg-color);
     color: var(--text-color);
     text-align: center;
-    border: 2px solid var(--card-border-color); /* Themed border */
+    border: 2px solid var(--card-border-color); 
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
   }
   
   .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px var(--cta-hover-shadow); /* Themed shadow */
+    box-shadow: 0 4px 8px var(--cta-hover-shadow); 
   }
   
   /* Card Title */
   .card-title {
     font-size: 18px;
     margin-bottom: 10px;
-    color: var(--logo-highlight-color); /* Themed title color */
+    color: var(--logo-highlight-color); 
   }
   
   /* Card Description */

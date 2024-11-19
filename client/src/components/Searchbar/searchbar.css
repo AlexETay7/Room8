@@ -7,8 +7,8 @@
     justify-content: center;
     height: 50vh;
     padding: 20px;
-    background: var(--navbar-bg-gradient); /* Use theme background gradient */
-    color: var(--text-color); /* Theme text color */
+    background: var(--navbar-bg-gradient); 
+    color: var(--text-color);
   }
   
   /* Heading */
@@ -31,9 +31,9 @@
     flex: 1;
     padding: 15px;
     font-size: 16px;
-    border: 2px solid var(--cta-bg-color); /* Use call-to-action color */
+    border: 2px solid var(--cta-bg-color); 
     border-radius: 10px 0 0 10px;
-    color: var(--text-color); /* Input text color */
+    color: var(--text-color); 
     background: transparent;
     outline: none;
   }
