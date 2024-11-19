@@ -1,9 +1,12 @@
-import ListGroup from "./components/ListGroup";
+import HomePage from "./components/Home/Homepage";
+import "./themes/themes.css";
+
+document.documentElement.setAttribute("data-theme", "dark"); // set default theme to dark
 
 function App() {
   return (
     <div>
-      <ListGroup></ListGroup>
+      <HomePage />
     </div>
   );
 }

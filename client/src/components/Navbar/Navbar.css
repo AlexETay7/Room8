@@ -1,0 +1,63 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: var(--navbar-bg-gradient);
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Logo */
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+    cursor: pointer;
+  }
+  
+  .navbar-logo .highlight {
+    color: var(--logo-highlight-color);
+  }
+  
+  /* Links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-link:hover {
+    color: var(--link-hover-color);
+  }
+  
+  /* Navbar call to action */
+  .navbar-cta {
+    padding: 8px 16px;
+    background-color: var(--cta-bg-color);
+    color: var(--cta-text-color);
+    border-radius: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-cta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px var(--cta-bs-color);
+    color: var(--cta-bg-color); /* Change the text color on hover */
+    background-color: var(--cta-text-color); /* Optionally change background color on hover */
+  }
+  
+  

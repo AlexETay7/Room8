@@ -1,0 +1,23 @@
+:root[data-theme="dark"] {
+    --navbar-bg-gradient: linear-gradient(90deg, #1A1A40, #4E4E87);
+    --text-color: white;
+    --logo-highlight-color: #A2D2FF;
+    --link-hover-color: #A2D2FF;
+    --cta-bg-color: #A2D2FF;
+    --cta-text-color: #1A1A40;
+    --cta-hover-shadow: rgba(162, 210, 255, 0.4);
+    --cta-bs-color: rgba(162, 210, 255, 0.4);
+}
+
+:root[data-theme="light"] {
+    --navbar-bg-gradient: linear-gradient(90deg, #f4f4f4, #e0e0e0);
+    --text-color: #333333;
+    --logo-highlight-color: #6C63FF;
+    --link-hover-color: #6C63FF;
+    --cta-bg-color: #6C63FF;
+    --cta-text-color: #ffffff;
+    --cta-hover-shadow: rgba(108, 99, 255, 0.3);
+  }
+  
+  
+  
