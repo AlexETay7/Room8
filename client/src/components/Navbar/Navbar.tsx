@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="/features" className="navbar-link">
+          <a href="/matches" className="navbar-link">
             Matches
           </a>
         </li>
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="/contact" className="navbar-link navbar-cta">
+          <a href="/login" className="navbar-link navbar-cta">
             Login
           </a>
         </li>
