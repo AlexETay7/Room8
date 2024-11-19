@@ -1,40 +1,52 @@
+/* Horizontal Row for Cards */
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: nowrap; 
+  margin-top: -30px; 
+}
 
-  /* Horizontal Row for Cards */
-  .card-row {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    gap: 20px;
-    flex-wrap: nowrap; 
-  }
-  
-  /* Individual Cards */
-  .card {
-    flex: 1 1 calc(25% - 20px); 
-    padding: 20px;
-    background-color: var(--card-bg-color);
-    color: var(--text-color);
-    text-align: center;
-    border: 2px solid var(--card-border-color); 
-    border-radius: 8px;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px var(--cta-hover-shadow); 
-  }
-  
-  /* Card Title */
-  .card-title {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: var(--logo-highlight-color); 
-  }
-  
-  /* Card Description */
-  .card-description {
-    font-size: 14px;
-    color: var(--text-color);
-  }
-  
+/* Individual Cards */
+.card {
+  flex: 1 1 calc(25% - 20px);
+  padding: 20px;
+  background-color: var(--card-bg-color);
+  color: var(--text-color);
+  text-align: center;
+  /* border: 2px solid var(--card-border-color); */
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center; 
+}
+
+/* Hover Effect for Cards (Increased "pop") */
+.card:hover {
+  transform: translateY(-15px); 
+  box-shadow: 0 10px 20px var(--cta-hover-shadow); 
+}
+
+/* Icon Styling */
+.card-icon {
+  font-size: 60px;
+  color: var(--logo-highlight-color); 
+  margin-bottom: 20px; 
+}
+
+
+/* Card Title */
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--logo-highlight-color);
+}
+
+/* Card Description */
+.card-description {
+  font-size: 14px;
+  color: var(--text-color);
+}

@@ -1,27 +1,30 @@
 :root[data-theme="dark"] {
-    --navbar-bg-gradient: linear-gradient(90deg, #0F172A, #1E293B); 
-    --text-color: #E5E7EB;
-    --logo-highlight-color: #38BDF8; 
-    --link-hover-color: #38BDF8; 
-    --cta-bg-color: #38BDF8; 
-    --cta-text-color: #0F172A; 
-    --cta-hover-shadow: rgba(56, 189, 248, 0.3); 
-    --cta-bs-color: rgba(56, 189, 248, 0.3); 
-    --card-bg-color: #1E293B; 
-    --card-border-color: #38BDF8; 
+    --navbar-bg-gradient: linear-gradient(90deg, #292c33, #45709d);
+    --text-color: #F7FAFC;
+    --logo-highlight-color: #63B3ED;
+    --link-hover-color: #63B3ED;
+    --cta-bg-color: #63B3ED;
+    --cta-text-color: #1A202C;
+    --cta-hover-shadow: rgba(99, 179, 237, 0.3);
+    --cta-bs-color: rgba(99, 179, 237, 0.3);
+    --card-bg-color: #2D3748;
+    --card-border-color: #63B3ED;
+}
+
+:root[data-theme="light"] {
+    --navbar-bg-gradient: linear-gradient(90deg, #feda9a, #F7FAFC);
+    --text-color: #1A202C;
+    --logo-highlight-color: #F6AD55;
+    --link-hover-color: #F6AD55;
+    --cta-bg-color: #F6AD55;
+    --cta-text-color: #FFFFFF;
+    --cta-hover-shadow: rgba(246, 173, 85, 0.3);
+    --cta-bs-color: rgba(246, 173, 85, 0.3);
+    --card-bg-color: #FFFFFF;
+    --card-border-color: #F6AD55;
 }
 
 
-
-:root[data-theme="light"] {
-    --navbar-bg-gradient: linear-gradient(90deg, #f4f4f4, #e0e0e0);
-    --text-color: #333333;
-    --logo-highlight-color: #6C63FF;
-    --link-hover-color: #6C63FF;
-    --cta-bg-color: #6C63FF;
-    --cta-text-color: #ffffff;
-    --cta-hover-shadow: rgba(108, 99, 255, 0.3);
-  }
   
   
   
