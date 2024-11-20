@@ -34,9 +34,9 @@ const Navbar: React.FC = () => {
             Login
           </a>
         </li>
-        {/* <li>
+        <li>
           <ToggleTheme />
-        </li> */}
+        </li>
       </ul>
     </nav>
   );

@@ -9,7 +9,7 @@ const SearchBar: React.FC = () => {
         <input
           type="text"
           className="search-bar-input"
-          placeholder="Search by college, interests, or location..."
+          placeholder="Search by college, name, or location..."
         />
         <button className="search-bar-button">Search</button>
       </div>

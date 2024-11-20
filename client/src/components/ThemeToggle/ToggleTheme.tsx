@@ -1,20 +1,27 @@
-import React from "react";
-import { FaMoon, FaSun } from "react-icons/fa"; // Import moon and sun icons
+import React, { useState } from "react";
+import { Classic } from "@theme-toggles/react";
+import "@theme-toggles/react/css/classic.css"; // Import the specific toggle's CSS
 
 const ToggleTheme: React.FC = () => {
+  const [isDark, setIsDark] = useState(
+    document.documentElement.getAttribute("data-theme") === "dark"
+  );
+
   const toggleTheme = () => {
-    const currentTheme = document.documentElement.getAttribute("data-theme");
-    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    const newTheme = isDark ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", newTheme);
+    setIsDark(!isDark);
   };
 
-  const currentTheme = document.documentElement.getAttribute("data-theme");
-
   return (
-    <button className="theme-toggle" onClick={toggleTheme}>
-      {currentTheme === "dark" ? <FaSun size={24} /> : <FaMoon size={24} />}{" "}
-      {/* Render sun or moon */}
-    </button>
+    <Classic
+      toggled={isDark}
+      toggle={toggleTheme}
+      duration={500}
+      placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
+    />
   );
 };
 
